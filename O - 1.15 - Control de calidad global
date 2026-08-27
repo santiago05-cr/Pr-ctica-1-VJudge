@@ -1,0 +1,4 @@
+n = int(input())
+respuestas = map(int, input().split())
+
+print("HARD" if any(respuestas) else "EASY")
