@@ -1,0 +1,11 @@
+n, k = map(int, input().split())
+puntajes = list(map(int, input().split()))
+
+limite = puntajes[k - 1]
+contador = 0
+
+for puntaje in puntajes:
+    if puntaje >= limite and puntaje > 0:
+        contador += 1
+
+print(contador)
