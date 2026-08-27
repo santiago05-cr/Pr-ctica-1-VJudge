@@ -1,0 +1,8 @@
+for i in range(5):
+    fila = list(map(int, input().split()))
+
+    for j in range(5):
+        if fila[j] == 1:
+            movimientos = abs(i - 2) + abs(j - 2)
+
+print(movimientos)
