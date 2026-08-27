@@ -1,0 +1,7 @@
+n=int(input())
+for i in range(n):
+    cadena=input()
+    if len(cadena)>10:
+        print(cadena[0]+str(len(cadena)-2)+cadena[-1])
+    else:
+      print(cadena)
