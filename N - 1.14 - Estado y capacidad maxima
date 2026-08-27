@@ -1,0 +1,14 @@
+n = int(input())
+
+personas = 0
+maximo = 0
+
+for _ in range(n):
+    a, b = map(int, input().split())
+
+    personas -= a
+    personas += b
+
+    maximo = max(maximo, personas)
+
+print(maximo)
